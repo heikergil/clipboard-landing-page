@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px;
+}
+
+
+.icon-container {
+  max-width: 300px;
+  width: 40%;
+  text-align: center;
+}
+
+
+
+.workflow > div > img {
+  width: 50%;
+max-width: 200px;
+} 
+.logos > img {
+  width: 70%;
+  max-width: 300px;
+  margin: 25px auto;
+} 
+
+div > h1, h2, h3, p {
+  margin: 15px auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2, h3 {
+  font-weight: 400;
+}
+
+p {
+font-size: 0.8em;
+}
+
+button {
+  width: 80%;
+  max-width: 300px;
+  margin: 5px 0;
+  color: white;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+  border-bottom: 3px solid;
+  cursor: pointer;
+}
+button:focus {
+  outline:none;
+}
+button:active {
+  border: none;
+}
+
+.mac-button {
+  background-color:hsla(233, 100%, 69%, 0.952);
+  border-bottom-color: hsla(233, 70%, 52%, 0.959);
+  /* background-color:hsl(201, 11%, 66%); */
+}
+
+.ios-button {
+background-color: hsl(171, 66%, 44%);
+border-bottom-color: hsl(171, 69%, 36%);
+/* background-color: hsl(171, 66%, 44%); */
+}
+
+img {
+  width: 100%;
+}
+
+.img-container {
+  width: 90%;
+}
+
+.links {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 20vh;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/*# sourceMappingURL=styles.css.map */
+
+
