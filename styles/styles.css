@@ -56,17 +56,43 @@ table {
   border-spacing: 0;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-container {
-  margin-top: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
+  padding: 20px;
 }
 
-div > h1, h2, h3, p {
-  margin: 25px auto;
+
+.icon-container {
+  max-width: 300px;
+  width: 40%;
   text-align: center;
+}
+
+
+
+.workflow > div > img {
+  width: 50%;
+max-width: 200px;
+} 
+.logos > img {
+  width: 70%;
+  max-width: 300px;
+  margin: 25px auto;
+} 
+
+div > h1, h2, h3, p {
+  margin: 15px auto;
+  text-align: center;
+  line-height: 1.5;
 }
 
 h1 {
@@ -75,6 +101,10 @@ h1 {
 
 h2, h3 {
   font-weight: 400;
+}
+
+p {
+font-size: 0.8em;
 }
 
 button {
@@ -88,18 +118,46 @@ button {
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   border: none;
+  border-bottom: 3px solid;
+  cursor: pointer;
+}
+button:focus {
+  outline:none;
+}
+button:active {
+  border: none;
 }
 
 .mac-button {
-  background-color:hsl(233, 100%, 69%);
+  background-color:hsla(233, 100%, 69%, 0.952);
+  border-bottom-color: hsla(233, 70%, 52%, 0.959);
   /* background-color:hsl(201, 11%, 66%); */
 }
 
 .ios-button {
 background-color: hsl(171, 66%, 44%);
+border-bottom-color: hsl(171, 69%, 36%);
 /* background-color: hsl(171, 66%, 44%); */
 }
 
+img {
+  width: 100%;
+}
+
+.img-container {
+  width: 90%;
+}
+
+.links {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 20vh;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
