@@ -62,7 +62,7 @@ section {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* border-top: solid red 1px; */
+  border-top: solid red 2px;
 }
 
 .main-container {
@@ -81,10 +81,14 @@ section {
 }
 
 .icon-container {
-  max-width: 300px;
+  max-width: 200px;
   width: 40%;
-  text-align: center;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 
 
@@ -166,6 +170,42 @@ img {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .button-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .computer {
+     display:flex;
+     justify-content: center;
+   }
+
+   .tools-section {
+    display:flex;
+    justify-content: center;
+   }
+   
+   .tools {
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   .logos {
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: row;
+   }
 }
 
 .attribution { font-size: 11px; text-align: center; }
