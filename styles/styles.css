@@ -180,6 +180,22 @@ img {
   width: 25px;
 }
 
+.tools {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 600px) {
   button {
     margin-right: 10px;
@@ -216,6 +232,10 @@ img {
      justify-content: space-evenly;
    }
 
+   .computer > .img-container {
+    display: flex;
+    align-items: center;
+   }
    .computer > .img-container > img {
     position: relative;
     right: 100px;
@@ -240,6 +260,9 @@ img {
      flex-direction: row;
    }
 
+    .logos > img {
+      max-width: 100px;
+    }
 
   
 
@@ -254,7 +277,7 @@ img {
   }
 
   .clips > .social {
-    width: 100px;
+    max-width: 100px;
     display: flex;
     justify-content: space-between;
   }
